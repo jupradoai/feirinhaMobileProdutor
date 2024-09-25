@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1041271400397",
+    "project_id": "feirinha-8b171",
+    "storage_bucket": "feirinha-8b171.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041271400397:android:da01783c3cac94b9cbc684",
+        "android_client_info": {
+          "package_name": "br.com.fatecdiadema.feirinha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNAjN2XQbsAnAOE8XV5xrdU27ETOECdUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
