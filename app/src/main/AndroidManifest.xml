@@ -10,6 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.Feirinha"
         tools:targetApi="31">
         <activity
@@ -56,6 +57,12 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
+=======
+        android:theme="@style/Theme.FeirinhaParaProdutores"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+>>>>>>> 230deef611867fd8db6b89a31cc1b2a7a6990414
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

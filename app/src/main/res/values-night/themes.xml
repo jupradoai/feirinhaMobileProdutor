@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.Feirinha" parent="Theme.Material3.DayNight.NoActionBar">
+=======
+    <style name="Base.Theme.FeirinhaParaProdutores" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> 230deef611867fd8db6b89a31cc1b2a7a6990414
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
