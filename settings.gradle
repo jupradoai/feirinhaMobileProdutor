@@ -19,9 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-<<<<<<< HEAD
-rootProject.name = "Feirinha"
-=======
 rootProject.name = "Feirinha para Produtores"
->>>>>>> 230deef611867fd8db6b89a31cc1b2a7a6990414
 include ':app'
+
