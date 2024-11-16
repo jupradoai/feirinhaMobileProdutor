@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools">
+=======
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+>>>>>>> 5db4f66 (update mobile)
 
     <application
         android:allowBackup="true"
@@ -11,12 +20,40 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:theme="@style/Theme.Feirinha"
         tools:targetApi="31">
+=======
+        android:theme="@style/Theme.TwitterCourse"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31" >
+        <activity
+            android:name=".AlertActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RastrearActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SupplyChainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProdutoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Produto"
+            android:exported="false" />
+>>>>>>> 5db4f66 (update mobile)
         <activity
             android:name=".ServiceActivity"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
             android:name=".MenuActivity"
             android:exported="false" />
         <activity
@@ -48,6 +85,15 @@
             android:exported="false" />
         <activity
             android:name=".ProdutoActivity"
+=======
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+>>>>>>> 5db4f66 (update mobile)
             android:exported="false" />
         <activity
             android:name=".HomeActivity"
@@ -57,6 +103,7 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
+<<<<<<< HEAD
 =======
         android:theme="@style/Theme.FeirinhaParaProdutores"
         tools:targetApi="31">
@@ -64,6 +111,9 @@
             android:name=".MainActivity"
 >>>>>>> 230deef611867fd8db6b89a31cc1b2a7a6990414
             android:exported="true">
+=======
+            android:exported="true" >
+>>>>>>> 5db4f66 (update mobile)
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

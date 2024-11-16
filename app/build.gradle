@@ -1,10 +1,14 @@
 plugins {
     alias(libs.plugins.android.application)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5db4f66 (update mobile)
     alias(libs.plugins.google.gms.google.services)
 }
 
 android {
+<<<<<<< HEAD
     namespace 'br.com.fatecdiadema.feirinha'
     compileSdk 34
 
@@ -20,6 +24,13 @@ android {
     defaultConfig {
         applicationId "br.com.fatec.feirinhaProdutores"
 >>>>>>> 230deef611867fd8db6b89a31cc1b2a7a6990414
+=======
+    namespace 'com.aula.twittercourse'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.aula.twittercourse"
+>>>>>>> 5db4f66 (update mobile)
         minSdk 24
         targetSdk 34
         versionCode 1
@@ -32,20 +43,45 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+<<<<<<< HEAD
         }
     }
+=======
+            def apiUrl = project.findProperty("API_URL") ?: "default_value"
+            buildConfigField "String", "API_URL", "\"${apiUrl}\""
+        }
+        debug {
+            minifyEnabled false
+            def apiUrl = project.findProperty("API_URL") ?: "default_value"
+            buildConfigField "String", "API_URL", "\"${apiUrl}\""
+        }
+    }
+
+>>>>>>> 5db4f66 (update mobile)
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+<<<<<<< HEAD
 }
 
 dependencies {
 
+=======
+
+    buildFeatures {
+        viewBinding true
+        buildConfig true // Habilita a geração da BuildConfig
+    }
+}
+
+dependencies {
+>>>>>>> 5db4f66 (update mobile)
     implementation libs.appcompat
     implementation libs.material
     implementation libs.activity
     implementation libs.constraintlayout
+<<<<<<< HEAD
 <<<<<<< HEAD
     implementation libs.firebase.auth
     implementation 'com.google.android.material:material:1.9.0'
@@ -55,3 +91,26 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 }
+=======
+    implementation libs.firebase.auth
+    implementation libs.firebase.firestore
+    implementation libs.lifecycle.livedata.ktx
+    implementation libs.lifecycle.viewmodel.ktx
+    implementation libs.navigation.fragment
+    implementation libs.navigation.ui
+    implementation libs.play.services.analytics.impl
+    implementation libs.recyclerview
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.core:core:1.13.1'
+    implementation 'com.google.android.gms:play-services-location:21.3.0'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+
+}
+>>>>>>> 5db4f66 (update mobile)

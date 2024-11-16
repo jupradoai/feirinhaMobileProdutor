@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".CadastroActivity">
 
     <ImageView
@@ -74,10 +75,63 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.727" />
+=======
+    android:background="#FBFBE0"
+    tools:context=".CadastroActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265"
+        app:srcCompat="@drawable/logo_menu" />
+
+    <EditText
+        android:id="@+id/cadUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="text|textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/cadEmail"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/cadEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" E-mail"
+        android:inputType="text|textEmailSubject"
+        app:layout_constraintBottom_toTopOf="@+id/cadSenha"
+        app:layout_constraintEnd_toEndOf="@+id/cadUsuario"
+        app:layout_constraintStart_toStartOf="@+id/cadUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/cadUsuario" />
+
+    <EditText
+        android:id="@+id/cadSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="text|textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnSalvar"
+        app:layout_constraintEnd_toEndOf="@+id/cadEmail"
+        app:layout_constraintStart_toStartOf="@+id/cadEmail"
+        app:layout_constraintTop_toBottomOf="@+id/cadEmail" />
+>>>>>>> 5db4f66 (update mobile)
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnSalvar"
         style="@style/Widget.AppCompat.Button.Colored"
+<<<<<<< HEAD
         android:layout_width="292dp"
         android:layout_height="wrap_content"
         android:background="@drawable/background_button"
@@ -93,3 +147,16 @@
         app:layout_constraintVertical_bias="0.855" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroud_button"
+        android:onClick="salvar"
+        android:text="SALVAR"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cadSenha"
+        app:layout_constraintStart_toStartOf="@+id/cadSenha"
+        app:layout_constraintTop_toBottomOf="@+id/cadSenha" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 5db4f66 (update mobile)

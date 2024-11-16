@@ -1,7 +1,15 @@
 <resources>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <string name="app_name">Feirinha</string>
 =======
     <string name="app_name">Feirinha para Produtores</string>
 >>>>>>> 230deef611867fd8db6b89a31cc1b2a7a6990414
+=======
+    <string name="app_name">TwitterCourse</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+>>>>>>> 5db4f66 (update mobile)
 </resources>

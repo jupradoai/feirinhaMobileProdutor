@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <color name="colorPrimaryDark">#FFC778</color>
     <color name="colorPrimary">#FFC778</color>
     <color name="colorAccent">#ffa451</color>
@@ -8,4 +9,21 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 >>>>>>> 230deef611867fd8db6b89a31cc1b2a7a6990414
+=======
+    <color name="colorPrimaryDark">#FFC778</color>
+    <color name="colorPrimary">#FFC778</color>
+    <color name="colorAccent">#FFC778</color>
+    <color name="colorCultivo">#FF6384</color>        <!-- Cor para Cultivo -->
+    <color name="colorDistribuicao">#36A2EB</color>    <!-- Cor para Distribuição -->
+    <color name="colorProcessamento">#FFCE56</color>   <!-- Cor para Processamento -->
+    <color name="colorQualidade">#4BC0C0</color>
+
+    <color name="switch_thumb_on">#008000</color> <!-- Cor forte quando ativado -->
+    <color name="switch_track_on">#008000</color> <!-- Cor do trilho quando ativado -->
+    <color name="switch_thumb_off">#BDBDBD</color> <!-- Cor fraca quando desativado -->
+    <color name="switch_track_off">#EEEEEE</color> <!-- Cor do trilho quando desativado -->
+
+
+
+>>>>>>> 5db4f66 (update mobile)
 </resources>

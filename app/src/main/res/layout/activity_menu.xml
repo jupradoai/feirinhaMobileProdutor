@@ -26,7 +26,10 @@
             android:layout_height="wrap_content"
             android:text="Home" />
     </LinearLayout>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5db4f66 (update mobile)
     <LinearLayout
         android:id="@+id/nav_service"
         android:layout_width="0dp"
@@ -49,6 +52,51 @@
     </LinearLayout>
 
     <LinearLayout
+<<<<<<< HEAD
+=======
+        android:id="@+id/nav_dashboard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="nav_dashboard"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_dashboard" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_help"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="nav_help"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_help" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help" />
+    </LinearLayout>
+
+    <LinearLayout
+>>>>>>> 5db4f66 (update mobile)
         android:id="@+id/nav_profile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -68,4 +116,31 @@
             android:layout_height="wrap_content"
             android:text="Perfil" />
     </LinearLayout>
+<<<<<<< HEAD
+=======
+
+    <LinearLayout
+        android:id="@+id/nav_alert"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="nav_alert"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_alert" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alert" />
+    </LinearLayout>
+
+
+
+>>>>>>> 5db4f66 (update mobile)
 </LinearLayout>

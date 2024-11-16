@@ -1,21 +1,56 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "1041271400397",
     "project_id": "feirinha-8b171",
     "storage_bucket": "feirinha-8b171.appspot.com"
+=======
+    "project_number": "322119261869",
+    "project_id": "twittercurso-ab977",
+    "storage_bucket": "twittercurso-ab977.appspot.com"
+>>>>>>> 5db4f66 (update mobile)
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:1041271400397:android:da01783c3cac94b9cbc684",
         "android_client_info": {
           "package_name": "br.com.fatecdiadema.feirinha"
+=======
+        "mobilesdk_app_id": "1:322119261869:android:d0dbcc7d5b92bb4248b024",
+        "android_client_info": {
+          "package_name": "com.aula.twittercourse"
+>>>>>>> 5db4f66 (update mobile)
         }
       },
       "oauth_client": [],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyBNAjN2XQbsAnAOE8XV5xrdU27ETOECdUM"
+=======
+          "current_key": "AIzaSyD6sAuAQnBF7HDH31ONjZzNCCj2REzvHPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322119261869:android:c4508d1b684250ef48b024",
+        "android_client_info": {
+          "package_name": "com.aula.twittercurso"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6sAuAQnBF7HDH31ONjZzNCCj2REzvHPc"
+>>>>>>> 5db4f66 (update mobile)
         }
       ],
       "services": {

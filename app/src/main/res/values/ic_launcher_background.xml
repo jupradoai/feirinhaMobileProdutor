@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <color name="ic_launcher_background">#FDFDFD</color>
+=======
+    <color name="ic_launcher_background">#FEFF0C</color>
+>>>>>>> 5db4f66 (update mobile)
 </resources>

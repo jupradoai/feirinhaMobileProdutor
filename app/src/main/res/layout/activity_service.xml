@@ -7,7 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".ServiceActivity">
 
+<<<<<<< HEAD
     <!-- Incluindo o menu -->
+=======
+>>>>>>> 5db4f66 (update mobile)
     <include
         android:id="@+id/menu_layout"
         layout="@layout/activity_menu"
@@ -17,6 +20,7 @@
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+<<<<<<< HEAD
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -28,5 +32,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.375" /> <!-- Anexa ao fundo da tela -->
+=======
+    <Button
+        android:id="@+id/myProducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:onClick="produtos"
+        android:text="Gerenciamento de Produtos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/supplyChain"
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="140dp"
+        android:onClick="chain"
+        android:text="Gerenciar Supply Chain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.289"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myProducts" />
+
+    <Button
+        android:id="@+id/findProducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:onClick="rastrear"
+        android:text="Rastreamento de Produto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/supplyChain" />
+>>>>>>> 5db4f66 (update mobile)
 
 </androidx.constraintlayout.widget.ConstraintLayout>
